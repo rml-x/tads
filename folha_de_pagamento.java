@@ -37,9 +37,9 @@ public class folha_de_pagamento
                 horasExtra = horas - 40;
                 System.out.println("total de horas extras: "+ horasExtra);
 
-                bonus = valor * 0.5;
+                bonus = valor * 0.5;//bonus sobre o valor da hora extra
 
-                double pagamento_com_bonus = (bonus * horasExtra) + horas * valor;
+                double pagamento_com_bonus = (bonus * horasExtra) + pagamento;
 
                 System.out.println("pagamento: " + pagamento_com_bonus);
                 System.out.println("insira o proximo funcionario e suas informações: ");

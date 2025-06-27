@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class vintporcet 
+public class gorjeta 
 {
     public static void main(String[] args) 
     {
